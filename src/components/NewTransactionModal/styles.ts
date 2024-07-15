@@ -41,6 +41,15 @@ export const Content = styled(Dialog.Content)`
 			}
 		}
 
+		input[type='number']::-webkit-inner-spin-button {
+			-webkit-appearance: none;
+		}
+
+		input[type='number'] {
+			-moz-appearance: textfield;
+			appearance: textfield;
+		}
+
 		button[type='submit'] {
 			height: 58px;
 			border: 0;
